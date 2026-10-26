@@ -1,0 +1,46 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+
+# IDE settings and local environments
+.idea/
+.vscode/
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Private data: retain directory placeholders only
+/data/**/*
+!/data/**/
+!/data/**/.gitkeep
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.dcm
+*.nii
+*.nii.gz
+
+# Training outputs and model exports
+/model/
+/outputs/
+/predictions/
+/test_log/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.log
+events.out.tfevents.*
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
