@@ -1,0 +1,9 @@
+# Direct runtime dependencies; this is not an exact environment lockfile.
+# For GPU training, install the appropriate CUDA-enabled PyTorch build first.
+torch>=2.0
+numpy>=1.24
+scipy>=1.10
+Pillow>=9.1
+MedPy>=0.5.2
+tqdm
+tensorboard
